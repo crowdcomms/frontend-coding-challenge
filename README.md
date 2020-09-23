@@ -2,43 +2,35 @@
 
 ## Introduction
 
-You have been tasked with creating a simple yet powerful recipe app using __Angular__ for a local chef.  The app will be created using the following free and open api:
+You have been tasked with creating a new feature for our events app using the latest version of Angular.  The feature will let users view speakers in the app.
+It will consist of two views, a list view and a details view.  You can use any other framework you like to help with styling etc..   The app should be architectured in way that will scale to a large enterpise sized app.
 
-- http://www.recipepuppy.com/about/api/
-
-The chef is rather frugal and does not want the app to fetch data unnecessarily from the server so it must be cached appropriately.  The budget is so small for this project that we have to complete it within 2 hours.
+Note: This is purely for testing purposes and the feature will not be used by us in any form.
 
 ## Instructions
 
-The app will fetch a list of recipes from a server and will allow the chef to star their favorite recipes and the data should persist.  It will consist of just two screens.
+1. Create a new GitHub repo and commit the basic app scaffolding
+2. Fetch the speakers from the api using the endpoint "https://randomuser.me/api/?results=20&page=1'" (the results and page will need to change accordinlgly)
+3. Display the speakers in a **paginated** list (only show the details you deem suitable)
+4. Add a search box to filter the list
+5. When a user clicks a speaker it should navigate to a "details" view
+6. Once again the details view will display any information about the speaker you deem suitable
 
-The first screen will have a list of 20 ingredients from which the chef can pick from and a search box to filter the list.
-
-Once the chef has selected his ingredients it should navigate to another page containing a list of recipes. Each recipe will contain the title of the recipe, other ingredients required and a link to the recipe page.
-
-When navigating from the ingredients page to the recipe list page the data should be called from the cache and not fetch it from the api each time if the same ingredients are chosen.
+You will need to add me(dandouglas) as a collaborator to the repo once you have finished.
 
 ## Requirements
 
-The app must be:
-1. Presentable
-2. Cached to prevent unnecessary api calls
-3. Must be tested
-4. Optimised for performance
-5. Structured as though it is expected to grow into a large enterprise app in the future
-6. Display a good overall knowledge of the main Angular concepts and best practices
+The app must:
+1. Be presentable
+2. Be optimised for performance
+3. Display a good knowledge of the main Angular concepts and best practices
+   
+You should also *commit regularly* and follow the [Angular guidelines](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#-commit-message-guidelines) for commit messages.  Example commit message: "fix(people list): people not showing"
 
-Create a private repository on Github and add me(dandouglas) as a collaborator once you have finished (or when the time limit expires).
-
-Commit regularly and follow the [Angular guidelines](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#-commit-message-guidelines) for commit messages.
-
-Example commit message: "fix(recipe list): cache not updating"
+It would be nice if the code was tested but this is not a requirement.
 
 Good luck!
 
 ## Time Limit
 
-2 hours
-
-**Please note: If you get cors issues on the api then it does accept jsonp requests.  You can also use any available service to overcome the cors issue.  If that is a problem then please use any other suitable api to fulfill the requirements of the challenge.
-
+4 hours

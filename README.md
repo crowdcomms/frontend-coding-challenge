@@ -15,6 +15,7 @@ Note: This is purely for testing purposes and the feature will not be used by us
 4. Add a search box to filter the list
 5. When a user clicks a speaker it should navigate to a "details" view
 6. Once again the details view will display any information about the speaker you deem suitable
+7. Add unit tests
 
 You will need to add me(dandouglas) as a collaborator to the repo once you have finished.
 
@@ -26,8 +27,6 @@ The app must:
 3. Display a good knowledge of the main Angular concepts and best practices
    
 You should also *commit regularly* and follow the [Angular guidelines](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#-commit-message-guidelines) for commit messages.  Example commit message: "fix(people list): people not showing"
-
-It would be nice if the code was tested but this is not a requirement.
 
 Good luck!
 

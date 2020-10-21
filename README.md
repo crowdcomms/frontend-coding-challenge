@@ -17,6 +17,8 @@ Note: This is purely for testing purposes and the feature will not be used by us
 6. Once again the details view will display any information about the speaker you deem suitable
 7. Add unit tests
 
+Extra points if you can build it with NgRx.
+
 You will need to add me(dandouglas) as a collaborator to the repo once you have finished.
 
 ## Requirements

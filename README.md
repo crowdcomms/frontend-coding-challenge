@@ -3,7 +3,7 @@
 ## Introduction
 
 You have been tasked with creating a new feature for our events app using the latest version of Angular.  The feature will let users view speakers in the app.
-It will consist of two views, a list view and a details view.  You can use any other framework you like to help with styling etc..   The app should be architectured in way that will scale to a large enterpise sized app.
+It will consist of two views, a list view and a details view.  You can use any other framework you like to help with styling etc..   The app should be architectured (specifically the folder structrure) in way that will scale to a large enterpise sized app.
 
 Note: This is purely for testing purposes and the feature will not be used by us in any form.
 
